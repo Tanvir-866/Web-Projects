@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #548687;
+    text-align: center;
+   
+
+}
+main{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.container {
+    height: 450px;
+    width: 450px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game {
+    height: 70%;
+    /* background-color: blueviolet; */
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 5px solid rgb(20, 79, 79);
+    border-radius: 1.4rem;
+}
+
+.box {
+    height: 31%;
+    width: 31%;
+    border-radius: 1rem;
+    border: none;
+    font-size: 8vmin;
+    /* color: #b0413e; */
+    background-color: #83b7d3f7;
+
+}
+
+#resetbtn,#newGaButt{
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius:1rem ;
+    background-color: #b88011;
+    color: #fff;
+   
+}
+
+#msg{
+    font-size: 3rem;
+    color: #ffffc7;
+}
+
+.msgCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    /* margin-top: 170px;
+    margin-left: 100px;
+    margin-right: 100px; */
+}
+
+/* .hide{
+    display: none;
+} */
